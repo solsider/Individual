@@ -2,7 +2,7 @@ import asyncio
 from aiogram import Bot, Dispatcher
 
 from config import BOT_TOKEN
-from study_bot.handlers import routers
+from handlers import routers
 
 async def main():
     bot = Bot(token=BOT_TOKEN)
