@@ -11,8 +11,7 @@ router = Router()
 async def start(message: Message, state: FSMContext):
     await state.clear()
     await message.answer(
-        "Привет! Выбирай действие кнопками 👇\n"
-        "Команды тоже работают: /help /plan /summary /timer /explain /quiz /solve",
+        "Привет! Выбирай действие кнопками 👇\n",
         reply_markup=main_kb
     )
 
