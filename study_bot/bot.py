@@ -2,7 +2,7 @@ import asyncio
 from aiogram import Bot, Dispatcher
 
 from config import BOT_TOKEN
-from app.handlers import routers  # <-- если у тебя именно app/
+from handlers import routers  
 
 async def main():
     while True:
